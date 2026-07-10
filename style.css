@@ -32,6 +32,18 @@ header{
     display: grid;
     gap:20px;   
 }
+.register{
+    
+    background-color:blue;
+    padding: 20px 12px 20px;
+    border-radius: 12px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    font-size: 12px;
+    
+
+}
 .header-banner button{
     width: 30%;
     margin-left: 35%;
@@ -53,7 +65,29 @@ header{
     color: whitesmoke;
     font-size: 20px;
 }
-
+section{
+    padding: 20px 8%;
+}
+.gallery{
+    margin-top: 100px;
+    display: grid;
+    gap: 12px;
+    grid-template-columns: repeat(2,1fr);
+}
+section h5{
+    color: blue;
+}
+section h2{
+    justify-content: center;
+    text-align: center;
+    margin-top: 90px;
+    font-size: 80px;
+    margin-right: 60px;
+}
+.box-1 h5 p h6{
+    background-color: red;
+    border-radius: 12px;
+}
 
 
 
