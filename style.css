@@ -11,7 +11,15 @@ nav{
 ul{
     display: flex;
     list-style: none;
+    align-items: center;
     gap: 20px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+
 }
 a{
     text-decoration: none;
@@ -84,9 +92,16 @@ section h2{
     font-size: 80px;
     margin-right: 60px;
 }
-.box-1 h5 p h6{
-    background-color: red;
-    border-radius: 12px;
+.card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-between;
+}
+.card div{
+    background-color: rgb(180, 13, 13);
+    width: 200px;
+    height: 400px;
+
 }
 
 
