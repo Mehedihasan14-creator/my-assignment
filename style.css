@@ -243,6 +243,25 @@ section h2{
     display:block;
 
 }
+footer hr{
+    border-top: #111827;
+     width: 100%;
+    margin: 20px 0;
+}
+.back{
+    background-color: #111827;
+}
+.icon{
+    display: flex;
+    margin-bottom: 25px;
+    justify-content:right;
+    
+}
+.reserved p{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
 
 
 
