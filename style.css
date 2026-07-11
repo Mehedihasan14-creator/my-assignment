@@ -92,15 +92,155 @@ section h2{
     font-size: 80px;
     margin-right: 60px;
 }
-.card{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    justify-content: space-between;
+.what-i-do-parent{
+    margin: 60px auto;
+    text-align: center;
+
 }
-.card div{
-    background-color: rgb(180, 13, 13);
-    width: 200px;
-    height: 400px;
+.what-i-do-card-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    
+}
+.what-i-do-card-container .what-i-do-card{
+    border: 2px solid black;
+    padding: 8px;
+    border-radius: 10px;
+    text-align: left;
+    
+}
+/* ==========================
+   Sponsors & Venue Section
+========================== */
+
+.info-section{
+    padding:100px 8%;
+    background:#ffffff;
+}
+
+.container{
+    max-width:1200px;
+    margin:auto;
+}
+
+/* ---------- Sponsors ---------- */
+
+.sponsors{
+    text-align:center;
+    margin-bottom:100px;
+}
+
+.sponsors h2{
+    font-size:42px;
+    font-weight:700;
+    margin-bottom:15px;
+    color:#111827;
+}
+
+.section-text{
+    color:#6b7280;
+    margin-bottom:50px;
+    font-size:17px;
+}
+
+.sponsor-grid{
+
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
+
+}
+
+.sponsor-card{
+
+    background:#fff;
+    border:1px solid #e5e7eb;
+    border-radius:12px;
+    padding:35px;
+
+    font-size:28px;
+    font-weight:700;
+
+    color:#4b5563;
+
+    transition:.3s;
+}
+
+.sponsor-card:hover{
+
+    transform:translateY(-6px);
+    box-shadow:0 15px 30px rgba(0,0,0,.08);
+
+}
+
+/* ---------- Venue ---------- */
+
+.venue{
+
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:60px;
+    align-items:center;
+
+}
+
+.venue-content h2{
+
+    font-size:42px;
+    margin-bottom:20px;
+    color:#111827;
+
+}
+
+.venue-content p{
+
+    color:#6b7280;
+    margin-bottom:25px;
+    line-height:1.8;
+
+}
+
+.venue-content ul{
+
+    list-style:none;
+    margin-bottom:35px;
+
+}
+
+.venue-content ul li{
+
+    margin-bottom:18px;
+    font-size:17px;
+    color:#374151;
+
+}
+
+.venue-btn{
+
+    display:inline-block;
+    background:#2563eb;
+    color:#fff;
+    padding:14px 34px;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:600;
+    transition:.3s;
+
+}
+
+.venue-btn:hover{
+
+    background:#1d4ed8;
+
+}
+
+.venue-image img{
+
+    width:100%;
+    border-radius:15px;
+    display:block;
 
 }
 
